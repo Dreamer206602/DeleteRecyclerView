@@ -35,7 +35,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
 
         holder.tvName.setText(mDataset.get(position).getName());
-        holder.tvAge.setText(mDataset.get(position).getAge());
+        holder.tvAge.setText(mDataset.get(position).getAge()+"");
         holder.tvSex.setText(mDataset.get(position).getSex());
 
     }
